@@ -1,0 +1,171 @@
+name: Base
+version: 1.0.0
+main: net.bfcode.bfbase.BasePlugin
+authors: [JavaPinq, Risas]
+commands:
+  staffserver:
+  setmaxplayers:
+    aliases: ["setslots", "setmaxslots"]
+  iphistory:
+  settings:
+    aliases: ["options", "config"]
+  setviewdistance:
+  twitch:
+    aliases: ["stream", "streaming", "directo", "live"]
+  toggledonoronly:
+    description: Turns the server to Donor only mode.
+    aliases: ["donoronly", "donormode"]
+  togglesounds:
+  togglesidebar:
+    aliases: ["togglesb"]
+  broadcast:
+    aliases: ["bc", "allmessage"]
+  media:
+    aliases: ["yt", "youtube", "famous", "partner"]
+  staff:
+    aliases: ["h", "mod", "staffmode"]
+  announcement:
+    aliases: ["announce", "ann"]
+  autorestart:
+    aliases: ["autore"]
+    description: Handle server restarts safely.
+  list:
+    aliases: ["who"]
+  note:
+  copyinv:
+  newvideo:
+    aliases: ["nuevovideo"]
+  amivis:
+    aliases: ["amivanish", "amivanished", "?invis", "?v", "?vis", "invis?", "vis?", "v?"]
+    description: Command used to check if visible.
+  back:
+    description: Teleport to last known location.
+  biome:
+    description: Check the biome a player is in.
+  clearchat:
+    aliases: ["cc"]
+    description: Clear the chat history.
+  clearinv:
+    aliases: ["ci", "clear", "cpinv"]
+    description: Clears a player inventory.
+  enchant:
+    description: Enchant an item.
+  entities:
+    description: Check the entities in a world.
+  fly:
+    description: Toggle flight for a player.
+  feed:
+    description: Feed a player.
+  freeze:
+    description: Command used to freeze players.
+    aliases: ["ss"]
+  gamemode:
+    aliases: ["gm"]
+    description: Update a players gamemode.
+  give:
+    description: Give an item to a player.
+  hat:
+    description: Wear something as a hat.
+  heal:
+    description: Heal a player.
+  id:
+    description: Check the id of an item.
+  ignore:
+    description: Ignore a player from messaging you
+  invsee:
+    aliases: ["inventory", "inventorysee", "inv"]
+    description: View a players inventory.
+  item:
+    aliases: ["i"]
+    description: Spawn an item.
+  kill:
+    aliases: ["suicide", "slay"]
+    description: Kill a player.
+  kit:
+    aliases: ["gkit", "kits", "gkits"]
+    description: Command to apply or use kits.
+  dev:
+    aliases: ["developer", "hcfcore", "authors"]
+  message:
+    aliases: ["m", "msg", "tell", "whisper", "w"]
+    description: Messsage an online player.
+  socialspy:
+    aliases: ["ms", "msgspy", "pmspy", "whisperspy", "privatemessagespy", "tellspy"]
+    description: Command used to spy on pm's of players.
+  more:
+    description: Give yourself more of an item.
+  setmotd:
+  lobby:
+    aliases: ["hub"]
+  disablechat:
+    aliases: ["mc", "rc", "restrictchat", "mutechat"]
+    description: Restricts the use of global chat.
+  lag:
+    description: View total server lag of the server.
+  near:
+    description: Check nearby entities to a player.
+  ping:
+    aliases: ["p"]
+    description: Checks the ping of a player.
+  playtime:
+    aliases: ["pt"]
+    description: Track a players total playtime of the map.
+  playertime:
+    aliases: ["ptime"]
+    description: Shows your player time.
+  removeentity:
+    aliases: ["reme", "rem"]
+    description: Remove entities from the server.
+  rename:
+    description: Command used to rename items.
+  repair:
+    aliases: ["fix"]
+    description: Allows the repairing of tools.
+  store:
+    description: Gets the donation link.
+  reply:
+    aliases: ["r"]
+    description: Reply to a player message.
+  skull:
+    description: Spawn the skull of a player.
+  slowchat:
+    aliases: ["slow"]
+    description: Sets a delay between chat messages.
+  speed:
+    description: Set your walk or fly speed.
+  stoplag:
+  killmobs:
+  sudo:
+    description: Force another player to run a command.
+  teleport:
+    aliases: ["tp"]
+    description: Teleport to a player or location.
+  teleportall:
+    aliases: ["tpall"]
+    description: Teleport all online players somewhere.
+  teleporthere:
+    aliases: ["tphere", "s"]
+    description: Teleport a player to self.
+  togglemsg:
+    aliases: ["togglepm", "toggleprivatemessages", "tpm", "togglemessages"]
+    description: Disable private messages.
+  top:
+    description: Teleport to highest spot of world
+  kits:
+    aliases: ["gkits", "gkit"]
+  uptime:
+    description: Check how long a server has been up for.
+  vanish:
+    aliases: ["v", "vis", "vanish", "invis"]
+    description: Hide yourself from other players.
+  whois:
+    aliases: ["seen"]
+    description: Check information about a player.
+  world:
+    description: Change your current world.
+  drops:
+  vanishstaff:
+    aliases: ["vstaff", "hidestaff", "showstaff"]
+  recording:
+    aliases: ["rec", "record", "grabar", "grabando"]
+    usage: Syntax error! Perhaps you meant /<command> {Your Channel}?

@@ -1,0 +1,80 @@
+package net.bfcode.bfbase.command.module;
+
+import net.bfcode.bfbase.BasePlugin;
+import net.bfcode.bfbase.command.BaseCommandModule;
+import net.bfcode.bfbase.command.module.essential.AmivisCommand;
+import net.bfcode.bfbase.command.module.essential.AutoRestartCommand;
+import net.bfcode.bfbase.command.module.essential.BroadcastCommand;
+import net.bfcode.bfbase.command.module.essential.DropsCommand;
+import net.bfcode.bfbase.command.module.essential.EnchantCommand;
+import net.bfcode.bfbase.command.module.essential.FeedCommand;
+import net.bfcode.bfbase.command.module.essential.FlyCommand;
+import net.bfcode.bfbase.command.module.essential.FreezeCommand;
+import net.bfcode.bfbase.command.module.essential.GamemodeCommand;
+import net.bfcode.bfbase.command.module.essential.HatCommand;
+import net.bfcode.bfbase.command.module.essential.HealCommand;
+import net.bfcode.bfbase.command.module.essential.IpHistoryCommand;
+import net.bfcode.bfbase.command.module.essential.KillCommand;
+import net.bfcode.bfbase.command.module.essential.LagCommand;
+import net.bfcode.bfbase.command.module.essential.ListCommand;
+import net.bfcode.bfbase.command.module.essential.NearCommand;
+import net.bfcode.bfbase.command.module.essential.NoteCommand;
+import net.bfcode.bfbase.command.module.essential.PingCommand;
+import net.bfcode.bfbase.command.module.essential.PlayTimeCommand;
+import net.bfcode.bfbase.command.module.essential.RenameCommand;
+import net.bfcode.bfbase.command.module.essential.RepairCommand;
+import net.bfcode.bfbase.command.module.essential.SetMaxPlayersCommand;
+import net.bfcode.bfbase.command.module.essential.SetViewDistanceCommand;
+import net.bfcode.bfbase.command.module.essential.SettingsCommand;
+import net.bfcode.bfbase.command.module.essential.SpeedCommand;
+import net.bfcode.bfbase.command.module.essential.StaffModeCommand;
+import net.bfcode.bfbase.command.module.essential.StaffServerCommand;
+import net.bfcode.bfbase.command.module.essential.StopLagCommand;
+import net.bfcode.bfbase.command.module.essential.StoreCommand;
+import net.bfcode.bfbase.command.module.essential.SudoCommand;
+import net.bfcode.bfbase.command.module.essential.VanishCommand;
+import net.bfcode.bfbase.command.module.essential.VanishStaffCommand;
+import net.bfcode.bfbase.command.module.essential.WhoisCommand;
+import net.bfcode.bfbase.command.module.essential.toggle.ToggleDonorOnly;
+import net.bfcode.bfbase.command.module.essential.toggle.ToggleSidebarCommand;
+
+public class EssentialModule extends BaseCommandModule {
+	
+    public EssentialModule(final BasePlugin plugin) {
+        this.commands.add(new SettingsCommand(plugin));
+        this.commands.add(new SetViewDistanceCommand());
+        this.commands.add(new ToggleDonorOnly(plugin));
+        this.commands.add(new BroadcastCommand(plugin));
+        this.commands.add(new StaffServerCommand());
+        this.commands.add(new AmivisCommand(plugin));
+        this.commands.add(new StoreCommand());
+        this.commands.add(new AutoRestartCommand(plugin));
+        this.commands.add(new ListCommand());
+        this.commands.add(new EnchantCommand());
+        this.commands.add(new NoteCommand());
+        this.commands.add(new FeedCommand());
+        this.commands.add(new FlyCommand());
+        this.commands.add(new NearCommand());
+        this.commands.add(new FreezeCommand(plugin));
+        this.commands.add(new GamemodeCommand());
+        this.commands.add(new HatCommand());
+        this.commands.add(new StaffModeCommand(plugin));
+        this.commands.add(new VanishCommand(plugin));
+        this.commands.add(new HealCommand());
+        this.commands.add(new KillCommand());
+        this.commands.add(new PingCommand());
+        this.commands.add(new PlayTimeCommand(plugin));
+        this.commands.add(new RenameCommand());
+        this.commands.add(new RepairCommand());
+        this.commands.add(new LagCommand());
+        this.commands.add(new SpeedCommand());
+        this.commands.add(new StopLagCommand(plugin));
+        this.commands.add(new SudoCommand());
+        this.commands.add(new WhoisCommand(plugin));
+        this.commands.add(new DropsCommand(plugin));
+        this.commands.add(new VanishStaffCommand());
+        this.commands.add(new IpHistoryCommand(plugin));
+        this.commands.add(new SetMaxPlayersCommand());
+        this.commands.add(new ToggleSidebarCommand());
+    }
+}
